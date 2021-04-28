@@ -1,0 +1,90 @@
+/*Seletor universal
+* {
+	border: 1px solid red;
+}
+
+/*Seletor de texto
+h1 {
+	color: green;
+}
+
+/*Seletor de classe
+.verde {
+	color: green;
+}
+
+p.verde {
+	color: green;
+}
+
+/*Seletor de id
+#cabecalho {
+	border: 1px solid blue;
+}
+
+/*Seletor de filho
+li>a {
+	color: red;
+	text-decoration: none;
+}
+
+/*Seletor de descendente
+p a {
+	color: green;
+}
+
+/*Seletor de irmão adjacente
+h1+p {
+	color: red;
+}
+
+/*Seletor de irmão geral
+h1~p {
+	color: pink;
+}*/
+
+
+/******************
+Herança e especificidade
+p {
+	color: blue !important; /*se usar esse important,
+	ele vai ser utilizado ao inves do ultimo, que normalmente
+	é
+}
+
+p {
+	color: red;
+}
+
+/*Se um seletor for mais específico que outro, a regra
+mais específica será aplicada (terá precedência sobre
+regras mais gerais)
+*/
+
+* {
+	color: red;
+}
+
+h2 { /*3*/
+	color: blue;
+}
+
+h2.verde { /*2*/
+	color: green;
+}
+h2#amarelo { /*1*/
+	color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
