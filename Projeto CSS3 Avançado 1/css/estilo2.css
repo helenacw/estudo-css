@@ -15,7 +15,8 @@
 
 .caixa .ultimo {
 	background: url(../imagens/baixo2.png) no-repeat left bottom;
-	padding-bottom: 20px;
+	width: 400px;
+	height: 24px;
 }
 
 
